@@ -12,5 +12,5 @@ set laststatus=2
 colorscheme desert
 
 "   file type specific
-autocmd FileType java set tabstop=4 shiftwidth=4
+autocmd FileType java,python set tabstop=4 shiftwidth=4
 autocmd FileType javascript,xml set tabstop=2 shiftwidth=2
