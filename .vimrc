@@ -13,4 +13,4 @@ colorscheme desert
 
 "   file type specific
 autocmd FileType java,python set tabstop=4 shiftwidth=4
-autocmd FileType javascript,xml set tabstop=2 shiftwidth=2
+autocmd FileType javascript,xml,html set tabstop=2 shiftwidth=2
