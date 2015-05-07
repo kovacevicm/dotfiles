@@ -1,18 +1,16 @@
-set autoread
-set ignorecase
-set smartcase
 set hlsearch
 set showmatch
 set expandtab
 set smarttab
-set shiftwidth=4
-set tabstop=4
-set ai
-set si
+set autoindent
+set smartindent
 set wrap
-set laststatus=2
-set cmdheight=2
 set nu
 set nobackup
-set nowritebackup
-set ruler
+set writebackup
+set laststatus=2
+colorscheme desert
+
+"   file type specific
+autocmd FileType java set tabstop=4 shiftwidth=4
+autocmd FileType javascript,xml set tabstop=2 shiftwidth=2
