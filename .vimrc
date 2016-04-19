@@ -1,3 +1,6 @@
+filetype plugin indent on
+syntax on
+
 set hlsearch
 set showmatch
 set expandtab
@@ -12,5 +15,5 @@ set laststatus=2
 colorscheme desert
 
 "   file type specific
-autocmd FileType java,python set tabstop=4 shiftwidth=4
-autocmd FileType javascript,xml,html set tabstop=2 shiftwidth=2
+autocmd FileType java,python,ruby set tabstop=4 shiftwidth=4
+autocmd FileType javascript,xml,html,yaml set tabstop=2 shiftwidth=2
