@@ -1,17 +1,24 @@
 filetype plugin indent on
+set autoindent
+set smartindent
+
 syntax on
 
 set hlsearch
 set showmatch
+set ignorecase
+set smartcase
+
 set expandtab
 set smarttab
-set autoindent
-set smartindent
 set wrap
+
 set nu
+
 set nobackup
 set writebackup
 set laststatus=2
+
 colorscheme desert
 
 "   file type specific
