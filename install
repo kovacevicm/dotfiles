@@ -1,13 +1,14 @@
 #!/usr/bin/env bash
 
 declare -a dotfiles=(
+  "vim"
   "vimrc" 
 )
 
 BASEDIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 for f in "${dotfiles[@]}"; do
-  if [[ -f ~/."${f}" ]]; then
+  if [[ -e ~/."${f}" ]]; then
     echo "file ~/.${f} already exists, skipping."
   else
     echo "creating symlink for ${f}"
