@@ -4,6 +4,11 @@ set smartindent
 
 syntax on
 
+set noerrorbells visualbell t_vb=
+
+set splitbelow
+set splitright
+
 set hlsearch
 set showmatch
 set ignorecase
@@ -19,8 +24,5 @@ set nobackup
 set writebackup
 set laststatus=2
 
-colorscheme desert
-
-"   file type specific
-autocmd FileType java,python,ruby set tabstop=4 shiftwidth=4
-autocmd FileType javascript,xml,html,yaml set tabstop=2 shiftwidth=2
+set background=dark
+colorscheme solarized
