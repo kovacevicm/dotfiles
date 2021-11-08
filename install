@@ -15,3 +15,5 @@ for f in "${dotfiles[@]}"; do
     ln -s "${BASEDIR}/${f}" ~/."${f}"
   fi
 done
+
+git -C "$BASEDIR" submodule update --init --recursive
