@@ -26,6 +26,7 @@ set writebackup
 set laststatus=2
 
 set background=dark
+let g:solarized_termtrans=1
 colorscheme solarized
 let g:ligthline = {'colorscheme': 'solarized'}
 
